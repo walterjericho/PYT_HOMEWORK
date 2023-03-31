@@ -1,0 +1,14 @@
+Part 1 : Mini Quiz
+
+Q1 : True
+Q2 : False
+Q3 : False
+Q4 : True
+Q5 : True
+Q6 :	1
+	2
+	4
+	7
+	8
+	9
+Q7 : 2
