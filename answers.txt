@@ -1,0 +1,47 @@
+Q1: What is a nested loop?
+A1:
+A nested loop is a loop that occurs within another loop. The synthax as below:
+
+for [first iterating variable] in [outer loop]: # Outer loop
+    [do something]  # Optional
+    for [second iterating variable] in [nested loop]:   # Nested loop
+        [do something]
+
+The program first encounters the outer loop, executing its first iteration. This first
+iteration triggers the inner, nested loop, which then runs to completion. Then the program 
+returns back to the top of the outer loop, completing the second iteration and again 
+triggering the nested loop. Again, the nested loop runs to completion, and the program 
+returns back to the top of the outer loop until the sequence is complete or a break or 
+other statement disrupts the process.
+
+Q2: Which kind of loop is based on a conditional statement: while loops or for loops?
+A2: While loop.
+
+Q3: When you want to iterate a specific number of times, would you typically use a while loop or a
+for loop?
+A3: For loop
+
+Q4: Is it possible to loop through a string one letter at a time? What is the example given in the article?
+A4: Yes. Example given in the article as below:
+
+sammy = 'Sammy'
+
+for letter in sammy:
+   print(letter)
+
+The output will looks like below:
+Output
+S
+a
+m
+m
+y
+
+Q5: Extrapolate from what you learned in the articles: Do you think a for loop be nested inside a
+while loop? Why or why not?
+A5:
+Yes it is doable. Because in nested loop like "for" loop inside a "while" loop, each loop, i.e. "for" loop will
+be executed on its own (independently) until its iteration or looping completed then it will return to the external loop which in 
+this case is "while" loop. The external "while" loop will then got repeated until its conditional statement
+return False. In this case, everytime the "while" loop executed because the conditional statement still return
+True, the nested "for" loop inside it will get iterated again.
